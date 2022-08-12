@@ -1,0 +1,9 @@
+//Question 12
+
+
+public class Question12 implements Function{
+ 
+  public static Question12 summationFunction(){
+     
+  }
+}

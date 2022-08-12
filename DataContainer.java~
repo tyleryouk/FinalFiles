@@ -1,0 +1,5 @@
+//Question 5
+
+public class DataContainer<T> extends Container<T> {
+   
+}

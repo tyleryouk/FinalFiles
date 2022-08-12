@@ -1,0 +1,13 @@
+//Question 4
+
+public class Container<T> {
+ 
+    //T are primaryContainer and secondaryContainer
+    T primaryContainer;
+    T secondaryContainer;
+    
+    public Container<T>(T container1, T container2){
+       primaryContainer = container1;
+       secondaryContainer = container2;
+    }
+}

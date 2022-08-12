@@ -1,0 +1,23 @@
+/**
+  * Takes a String value and returns a String that containes no vowels.
+  * @param a String value to remove the vowels from 
+  * @return the String that contains no vowels from the input String  
+  */
+
+public class Question7 {
+  
+  public String noVowels(String original){
+    
+    StringBuilder sOriginal = new StringBuilder(original);
+    
+    int originalLength = original.length();
+    char[] vowels = {a,e,i,o,u};
+    
+    for(char a: original){
+      if (a in vowels){
+        
+    }
+  }
+  
+  
+}

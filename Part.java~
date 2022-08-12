@@ -1,0 +1,21 @@
+
+
+
+public class Part {
+  Manufacturer manufacturer;
+  String partNumber;
+  double price;
+  
+  public Part(Manufacturer m, String p, double pr){
+    manufacturer = m;
+    partNumber = p;
+    price = pr;
+  }
+  public Part(Manufacturer m, String p){
+    manufacturer = m;
+    partNumber = p;
+    price = null;
+  }
+  
+  
+}

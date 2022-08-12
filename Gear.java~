@@ -1,0 +1,10 @@
+//Question 3
+  public class Gear extends Part {
+    
+    double diameter;
+    int numTeeth;
+    public Gear(Manufacturer m, String p, double pr, double d, int n){
+      super(m,p,pr);
+      diameter = d;
+    }
+  }

@@ -1,0 +1,6 @@
+//Question 9
+
+
+public class IterableString implements Iterable {
+   
+}

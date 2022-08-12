@@ -1,0 +1,13 @@
+//Question 10
+
+public class Question10{
+
+  public void capitalize(IterableString unCap){
+    for(Character letter : unCap){
+      if(Character.isLowerCase(letter)){
+         Character.toUpperCase(letter);
+      }
+    }
+  }
+
+}
